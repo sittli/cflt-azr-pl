@@ -1,7 +1,10 @@
 # cflt-azr-pl
 Demonstrate CC private networking (PL) + public access
+
 Setup local VNET (Terraform)
+
 Set CC dedicated cluster + PL (Terraform)
+
 Configure nginx proxy (manual)
 
 ## Content
@@ -9,7 +12,7 @@ Configure nginx proxy (manual)
 * Creation / configuration of a dedicated CC cluster + PL
 * Creation / configuration of a TCP proxy in the previously created VNET
 * Local adjustments to DNS
-* Useful commands (kcat, open
+* Useful commands (kcat, openssl, Confluent CLI)
 
 ## Prerequisites
 * terraform
