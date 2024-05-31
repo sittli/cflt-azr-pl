@@ -35,8 +35,8 @@ ssh-keygen -m PEM -t rsa -b 4096
 terraform init
 terraform apply 
 ```
-This should take < 1min
-Once finished, get public IP from the created Compute instance (e.g. via `grep public_ip_address terraform.tfstate`), in my example 172.173.254.108
+This should take < 1min.\
+Once finished, get public IP from the created Compute instance (e.g. via 'grep public_ip_address terraform.tfstate'), in my example 172.173.254.108
 
 * Validate cmdline connectivity from your local machine to the public IP endpoint of your Compute instance
 ```
